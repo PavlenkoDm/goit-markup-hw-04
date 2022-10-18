@@ -83,7 +83,10 @@ ul {
 
 /* Header */
 .header {
-    border-bottom: 1px solid #ECECEC;;
+    width: 1600px;
+    border-bottom: 1px solid #ECECEC;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-flex {
@@ -184,6 +187,9 @@ ul {
 /* Main */
 /* Hero section */
 .hero-section {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: var(--l-gradient), 
     url('../images/Hero.jpg');
     background-repeat: no-repeat;
@@ -336,6 +342,7 @@ ul {
 }
 
 .team-list-item {
+    background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -560,6 +567,7 @@ ul {
 }
 
 .footer-flex {
+    align-items: baseline;
     display: flex;
     gap: 70px
 }
@@ -597,9 +605,9 @@ ul {
     color: #fff;
 }
 
-.footer-item-two {
+/* .footer-item-two {
     padding-top: 12px;
-}
+} */
 
 .footer-item-two-title {
     margin-bottom: 20px;
